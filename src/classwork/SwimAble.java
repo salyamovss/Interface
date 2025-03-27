@@ -1,4 +1,7 @@
 package classwork;
 
-public interface SwinAble {
+public interface SwimAble {
+
+    public void swim();
+
 }

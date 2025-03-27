@@ -1,4 +1,13 @@
 package task2session.Case;
 
-public class Lowercase {
+import task2session.Service.MessageFormatter;
+
+public class Lowercase implements MessageFormatter {
+
+
+    @Override
+    public String getText(String message) {
+        return message.toLowerCase();
+    }
 }
+

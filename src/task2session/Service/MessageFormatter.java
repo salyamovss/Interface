@@ -1,4 +1,5 @@
 package task2session.Service;
 
-public interface MessegeFormatter {
+public interface MessageFormatter {
+    String getText(String message);
 }
